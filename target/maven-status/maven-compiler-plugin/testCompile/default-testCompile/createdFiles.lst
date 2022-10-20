@@ -1,0 +1,11 @@
+frontend\components\Navbar.class
+frontend\components\Navigation.class
+backend\RestAssuredTests.class
+frontend\components\Modal.class
+frontend\tests\BackendTests.class
+frontend\tests\FrontEndTests.class
+frontend\pages\HomePage.class
+frontend\pages\MainPage.class
+frontend\components\LoginModal.class
+frontend\pages\RegisterNewAdminPage.class
+frontend\Base.class
