@@ -9,15 +9,58 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">All Test Suite</th></tr>
-<tr><td><a href="#t0">C:/Users/marjan.karafiloski/Java/Zavodliva</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">19,664</td><td></td><td></td></tr>
+<tr><td><a href="#t0">C:/Users/marjan.karafiloski/Java/Zavodliva</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">27,369</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">All Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">C:/Users/marjan.karafiloski/Java/Zavodliva &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">backend.RestAssuredTests</td><td><a href="#m0">assertHomePageLoads</a></td><td rowspan="1">1666254556558</td><td rowspan="1">1538</td></tr><tr class="passedeven"><td><a href="#m1">registerTest</a></td><td rowspan="1">1666254558098</td><td rowspan="1">359</td></tr><tr class="passedodd"><td rowspan="5">frontend.tests.FrontEndTests</td><td><a href="#m2">assertHomePageHeaderTitle</a></td><td rowspan="1">1666254560248</td><td rowspan="1">1397</td></tr><tr class="passedodd"><td><a href="#m3">failLoginWithNewUser</a></td><td rowspan="1">1666254562539</td><td rowspan="1">3740</td></tr><tr class="passedodd"><td><a href="#m4">loginWithNewUser</a></td><td rowspan="1">1666254574328</td><td rowspan="1">1750</td></tr><tr class="passedodd"><td><a href="#m5">openHomePage</a></td><td rowspan="1">1666254567179</td><td rowspan="1">943</td></tr><tr class="passedodd"><td><a href="#m6">registerNewAdmin</a></td><td rowspan="1">1666254568979</td><td rowspan="1">4469</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">All Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">C:/Users/marjan.karafiloski/Java/Zavodliva &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">frontend.tests.FrontEndTests</td><td><a href="#m0">loginWithNewUser</a></td><td rowspan="1">1666255105293</td><td rowspan="1">6254</td></tr><tr><th colspan="4">C:/Users/marjan.karafiloski/Java/Zavodliva &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">backend.RestAssuredTests</td><td><a href="#m1">assertHomePageLoads</a></td><td rowspan="1">1666255084327</td><td rowspan="1">3015</td></tr><tr class="passedeven"><td><a href="#m2">registerTest</a></td><td rowspan="1">1666255087344</td><td rowspan="1">388</td></tr><tr class="passedodd"><td rowspan="4">frontend.tests.FrontEndTests</td><td><a href="#m3">assertHomePageHeaderTitle</a></td><td rowspan="1">1666255090192</td><td rowspan="1">937</td></tr><tr class="passedodd"><td><a href="#m4">failLoginWithNewUser</a></td><td rowspan="1">1666255092590</td><td rowspan="1">3711</td></tr><tr class="passedodd"><td><a href="#m5">openHomePage</a></td><td rowspan="1">1666255097214</td><td rowspan="1">1088</td></tr><tr class="passedodd"><td><a href="#m6">registerNewAdmin</a></td><td rowspan="1">1666255099220</td><td rowspan="1">5185</td></tr></tbody>
 </table>
-<h2>C:/Users/marjan.karafiloski/Java/Zavodliva</h2><h3 id="m0">backend.RestAssuredTests#assertHomePageLoads</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">backend.RestAssuredTests#registerTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">frontend.tests.FrontEndTests#assertHomePageHeaderTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">frontend.tests.FrontEndTests#failLoginWithNewUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">frontend.tests.FrontEndTests#loginWithNewUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>C:/Users/marjan.karafiloski/Java/Zavodliva</h2><h3 id="m0">frontend.tests.FrontEndTests#loginWithNewUser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //a[@href=&apos;/new&apos;] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-8I6I0RA&apos;, ip: &apos;192.168.100.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\karaf\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61754}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61754/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9086e5eb09bc7334d504cbd70d60dac5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at frontend.Base.isDisplayed(Base.java:41)
+	at frontend.components.Navbar.newShowNavLinkIsDisplayed(Navbar.java:24)
+	at frontend.tests.FrontEndTests.loginWithNewUser(FrontEndTests.java:82)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">backend.RestAssuredTests#assertHomePageLoads</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">backend.RestAssuredTests#registerTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">frontend.tests.FrontEndTests#assertHomePageHeaderTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">frontend.tests.FrontEndTests#failLoginWithNewUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m5">frontend.tests.FrontEndTests#openHomePage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m6">frontend.tests.FrontEndTests#registerNewAdmin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
