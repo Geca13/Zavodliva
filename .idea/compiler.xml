@@ -10,5 +10,8 @@
         <module name="Zavodliva" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Zavodliva" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
