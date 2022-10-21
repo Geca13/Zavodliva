@@ -21,7 +21,7 @@ public class LoginModal extends Base {
 
 
     public void loginAsAdmin(){
-        this.type("email15@email.com", usernameInput);
+        this.type("email16@email.com", usernameInput);
         this.type("Password@123", passwordInput);
         this.click(submitBtn);
     }
