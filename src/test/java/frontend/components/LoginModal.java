@@ -21,7 +21,7 @@ public class LoginModal extends BaseZavodliva {
 
 
     public void loginAsAdmin(){
-        this.type("email13@email.com", usernameInput);
+        this.type("email15@email.com", usernameInput);
         this.type("Password@123", passwordInput);
         this.click(submitBtn);
     }

@@ -21,7 +21,7 @@ public class RegisterNewAdminPage extends BaseZavodliva {
     }
 
     public void registerNewAdmin(ExtentTest test){
-        this.type("email13@email.com", email);
+        this.type("email15@email.com", email);
         this.type("Password@123", password);
         this.click(submitBtn);
         test.log(Status.INFO,"submit btn clicked");
