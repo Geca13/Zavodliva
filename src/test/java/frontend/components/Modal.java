@@ -1,12 +1,12 @@
 package frontend.components;
 
-import frontend.Base;
+import frontend.BaseZavodliva;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class Modal extends Base {
+public class Modal extends BaseZavodliva {
     public Modal(WebDriver driver) {
         super(driver);
     }

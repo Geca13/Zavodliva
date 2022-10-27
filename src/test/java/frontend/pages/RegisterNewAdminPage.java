@@ -2,11 +2,11 @@ package frontend.pages;
 
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
-import frontend.Base;
+import frontend.BaseZavodliva;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class RegisterNewAdminPage extends Base {
+public class RegisterNewAdminPage extends BaseZavodliva {
     public RegisterNewAdminPage(WebDriver driver) {
         super(driver);
     }
@@ -21,7 +21,7 @@ public class RegisterNewAdminPage extends Base {
     }
 
     public void registerNewAdmin(ExtentTest test){
-        this.type("email@email.com", email);
+        this.type("email2@email.com", email);
         this.type("Password@123", password);
         this.click(submitBtn);
         test.log(Status.INFO,"submit btn clicked");

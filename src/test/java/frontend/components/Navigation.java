@@ -1,13 +1,13 @@
 package frontend.components;
 
-import frontend.Base;
+import frontend.BaseZavodliva;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class Navigation extends Base {
+public class Navigation extends BaseZavodliva {
     public Navigation(WebDriver driver) {
         super(driver);
     }

@@ -2,9 +2,9 @@ package frontend.components;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import frontend.Base;
+import frontend.BaseZavodliva;
 
-public class LoginModal extends Base {
+public class LoginModal extends BaseZavodliva {
 
     public LoginModal(WebDriver driver) {
         super(driver);
@@ -21,7 +21,7 @@ public class LoginModal extends Base {
 
 
     public void loginAsAdmin(){
-        this.type("email@email.com", usernameInput);
+        this.type("email2@email.com", usernameInput);
         this.type("Password@123", passwordInput);
         this.click(submitBtn);
     }

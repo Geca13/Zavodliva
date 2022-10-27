@@ -2,9 +2,9 @@ package frontend.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import frontend.Base;
+import frontend.BaseZavodliva;
 
-public class HomePage extends Base {
+public class HomePage extends BaseZavodliva {
     public HomePage(WebDriver driver) {
         super(driver);
     }

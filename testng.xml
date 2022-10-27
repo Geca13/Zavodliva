@@ -3,12 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/marjan.karafiloski/Java/Zavodliva">
         <classes>
-            <class name="backend.RestAssuredTests">
-                <methods>
-                    <include name="assertHomePageLoads"/>
-                    <include name="registerTest"/>
-                </methods>
-            </class>
+            
             <class name="frontend.tests.FrontEndTests">
                 <methods>
                     <include name="openHomePage"/>

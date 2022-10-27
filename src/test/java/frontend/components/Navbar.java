@@ -2,9 +2,9 @@ package frontend.components;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import frontend.Base;
+import frontend.BaseZavodliva;
 
-public class Navbar extends Base {
+public class Navbar extends BaseZavodliva {
 
     public Navbar(WebDriver driver) {
         super(driver);
