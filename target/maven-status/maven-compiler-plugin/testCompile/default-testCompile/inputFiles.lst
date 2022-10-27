@@ -1,10 +1,9 @@
-D:\Selenium\Zavodliva\src\test\java\frontend\tests\BackendTests.java
-D:\Selenium\Zavodliva\src\test\java\backend\RestAssuredTests.java
+D:\Selenium\Zavodliva\src\test\java\frontend\BaseZavodliva.java
 D:\Selenium\Zavodliva\src\test\java\frontend\components\LoginModal.java
 D:\Selenium\Zavodliva\src\test\java\frontend\pages\RegisterNewAdminPage.java
-D:\Selenium\Zavodliva\src\test\java\frontend\Base.java
 D:\Selenium\Zavodliva\src\test\java\frontend\tests\FrontEndTests.java
 D:\Selenium\Zavodliva\src\test\java\frontend\components\Modal.java
+D:\Selenium\Zavodliva\src\test\java\frontend\tests\FrontEndTestsTest.java
 D:\Selenium\Zavodliva\src\test\java\frontend\pages\HomePage.java
 D:\Selenium\Zavodliva\src\test\java\frontend\components\Navbar.java
 D:\Selenium\Zavodliva\src\test\java\frontend\components\Navigation.java
